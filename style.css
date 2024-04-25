@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height:100vh;
+    width: 100%;
+    background-image:linear-gradient(rgb(79, 74, 74,0.6),rgb(102, 97, 97,0.6)),url(bg1.png);
+    position:relative;
+    background-size: cover;
+    background-position: center;
+}
+.header1{
+    min-height:50vh;
+    width: 100%;
+    background-image:linear-gradient(rgb(79, 74, 74,0.6),rgb(102, 97, 97,0.6)),url(bg1.png);
+    position:relative;
+    background-size: cover;
+    background-position: center;
+}
+.header2 h1{
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 40px;
+}
+body{
+    background-color:rgba(247, 239, 230, 0.5)
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 300px;
+    margin-top: -70px;
+    margin-left: -80px;
+}
+.navlinks{
+    flex: 1;
+    text-align: right;
+    margin-top: -70px;
+}
+.navlinks ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.navlinks ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Coming soon",cursive;
+    font-weight: 200;
+    font-style: normal;
+}
+.navlinks ul li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.textbox{
+    text-align: center;
+    margin-top: -40px;
+}
+.textbox h1{
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+    font-family: "Coming Soon", cursive;
+    font-style: normal;
+}
+.textbox p{
+    font-size:20px;
+    font-family: "Coming Soon", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: antiquewhite;
+}
+.textbox a{
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    margin-top:150px;
+    background:rgb(45, 40, 40);
+    color: white;
+    padding: 12px 30px;
+    border-radius: 10px;
+    border: 1px transparent black;
+    font-size:15px;
+    font-family: "Coming Soon", cursive;
+    font-style: normal;
+    text-decoration: none;
+}
+.textbox a:hover{
+    background-color: white;
+    color: black;
+}
+.container h1{
+      text-align: center;
+      margin-top:120px;
+      margin-bottom:20px;
+      font-family: "Coming soon",cursive;
+      font-weight: 600;
+      font-style: normal;
+      text-decoration: double underline;
+}
+.container h2{
+    text-align: center;
+      margin: 10px;
+      font-family: "Coming soon",cursive;
+      font-weight: 600;
+      font-style: normal;
+}
+.container p{
+    text-align: center;
+}
+.Offers{
+    display: flex;
+    margin-left: 80px;
+}
+
+.offers{
+    background-color: rgb(232, 228, 227,0.5);
+    width:290px;
+    height: 130px;
+    border: 1px transparent black;
+    border-radius:15px ;
+    margin: 20px;
+    overflow: none;
+    word-wrap: break-word;/* Wrap long words to prevent overflow */
+    padding:10px;
+    transition: box shadow 2s ease-in-out;
+}
+.offers:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5); 
+}
+.offers1{
+    background-color:  rgb(232, 228, 227,0.5);;
+    width:300px;
+    height: 130px;
+    border: 1px transparent black;
+    border-radius:15px ;
+    overflow: none;
+    word-wrap: break-word;/* Wrap long words to prevent overflow */
+    padding:10px;
+    margin: 20px;
+}
+.offers1:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5); 
+}
+.offers2{
+    background-color:  rgb(232, 228, 227,0.5);
+    width:300px;
+    height: 130px;
+    border: 1px transparent black;
+    border-radius:15px ;
+    margin:20px;
+    overflow: none;
+    word-wrap: break-word;/* Wrap long words to prevent overflow */
+    padding:10px;
+}
+.offers2:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5); 
+}
+.offers h1{
+    text-align: center;
+}
+.team1{
+    display: flex;
+    margin-bottom: 100px;
+}
+.team h1{
+    text-align: center;
+      font-family: "Coming Soon", cursive;
+      font-style: normal;
+      text-decoration: double underline;
+      margin-top: 120px;
+}
+.team p{
+    max-width: 600px;
+    text-align: justify;
+    margin: 20px 10px;
+    font-size: 16.5px;
+    line-height:21px;
+}
+.team1 iframe{
+    border-radius: 10px;
+    margin: 20px 10px;
+
+}
+h1{
+    text-align: center;
+      font-family: "Coming Soon", cursive;
+      font-style: normal;
+}
+.members{
+    display: flex;
+    justify-content: space-between;
+    margin:60px 10px;
+}
+.teammembers1 img{
+      border-radius: 10px;
+ }
+.teammembers2 img{
+      border-radius: 10px;
+ }
+.teammembers3 img{
+      border-radius: 10px;
+ }
+ .teammembers1 h3{
+    margin:10px 0;
+ }
+ .teammembers2 h3{
+    margin:10px 0;
+ }
+ .teammembers3 h3{
+    margin:10px 0;
+ }
+ .footer{
+    margin: 100px auto;
+    width: 90%;
+    background-image: linear-gradient(rgb(79, 74, 74,0.6),rgb(102, 97, 97,0.6)),url(cntact.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 100px 0;
+ } 
+ .footer h2{
+    color: white;
+    margin-bottom:20px;
+    margin-right: 10px;
+    }
+.footer a{
+    text-decoration: none;
+    border: 1px transparent black;
+    background:rgb(45, 40, 40);
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+.footer a:hover{
+background-color: white;
+color: black;
+}
+table{
+    margin:10px 80px ;
+}
+table,tr,th,td,caption{
+    border: 0.5px dotted rgb(112, 109, 109);
+    border-collapse:collapse;
+    font-family: "Sofia Sans Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+    padding:10px;
+    font-size: 20px;
+}
+.menus h1{
+    text-align: center;
+    margin: 20px;
+}
+.menu .price{
+    color: red;
+}
+.about h4{
+    font-family: "Poppins", sans-serif;
+    font-weight:700;
+    font-style: normal; 
+    font-size:30px;
+    text-align: center;  
+    margin-top: 50px;
+}
+.about p{
+    padding: 20px 30px;
+    line-height: 1.7em;
+    font-size:15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;   
+}
+.img1{
+      min-height: 50vh;
+      width:90%;
+      margin: 0 50px;
+      border-radius: 10px;
+}
+.about figcaption
+{
+    margin: 0 50px;
+}
+.Copyright{
+    text-align: center;
+}
+.contact {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.left {
+    flex: 1;
+    padding-right: 30px;
+    margin-top: 15px;
+}
+
+.left form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.left form p {
+    margin-bottom: 20px;
+}
+
+.left form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.left form input[type="text"],
+.left form input[type="email"],
+.left form input[type="tel"],
+.left form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.left form button {
+    padding: 10px 20px;
+    background-color:orange;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.left form button:hover{
+    background-color: black;
+}
+
+.right {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.right h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: orange;
+    margin-top: 20px;
+}
+.right address {
+    font-style: normal;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+    .navlinks ul li {
+        margin-right: 10px;
+        display: block;
+        margin-bottom:-10px;
+    }
+    nav img{
+        width:0;
+        margin-left:1px;
+    }
+    .textbox h1 {
+        font-size: 24px;
+        margin: 80px;
+    }
+    .Offers{
+        display: block;
+        margin-left:5px; 
+        margin-right: 10px;
+           }
+    .team1{
+        display: block;
+    }
+    .team1 iframe{
+       justify-content:center;
+       margin-left: 25px;
+       width: 320px;
+       height: 320px;
+    }
+    .img1{
+        margin-right: 30px;
+    }
+    .members{
+        display: block;
+    }
+    .teammembers1{
+        margin: 20px;
+    }
+    .teammembers2{
+        margin: 20px;
+    }
+    .teammembers3{
+        margin: 20px;
+    }
+    .textbox p {
+        font-size: 14px;
+    }
+
+    .textbox a {
+        padding: 8px 16px;
+    }
+
+    .container h1 {
+        font-size: 20px;
+    }
+
+    .offers h2 {
+        font-size: 16px;
+    }
+
+    .offers p {
+        font-size: 14px;
+    }
+
+    .team1 p {
+        font-size: 14px;
+    }
+
+    .footer h2 {
+        font-size: 20px;
+    }
+    .contact{
+        display: block;
+    }
+} 
+.menus video{
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.menus{
+    display: flex;
+}
+.menus p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.H1{
+    margin: 20px 0;
+}
+    
